@@ -1,7 +1,7 @@
 # Fit lapse model to IBL data
 import autograd.numpy as np
 import autograd.numpy.random as npr
-from NTEX_glmhmm_Model.LapseModel_ntex import lapse_model
+from LapseModel_ntex import lapse_model
 
 def calculate_predictive_acc_lapse_model(lapse_glm_weights, lapse_p,
                                          num_lapse_params, inpt, y):

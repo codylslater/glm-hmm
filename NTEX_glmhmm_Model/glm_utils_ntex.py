@@ -1,7 +1,7 @@
 import autograd.numpy as np
 import autograd.numpy.random as npr
 import matplotlib.pyplot as plt
-from NTEX_glmhmm_Model.GLM_ntex import glm
+from GLM_ntex import glm
 
 npr.seed(65)
 
